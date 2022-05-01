@@ -22,7 +22,8 @@ projectsList.forEach(elem => {
     outerLink.classList.add('project-link');
     outerLink.href = `${elem}/index.html`;
     innerDiv.classList.add('project');
+    // innerDiv.innerHTML = `<div class="text">${elem}</div>`;
     innerDiv.innerText = elem;
     outerLink.appendChild(innerDiv);
     projects.appendChild(outerLink);
-});
+});;
