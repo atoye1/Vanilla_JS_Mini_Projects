@@ -1,0 +1,70 @@
+:root {
+  --color-main: rgb(185, 185, 31);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  align-items: center;
+  justify-content: center;
+  height: 100;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: var(--color-main);
+}
+.container {
+  flex-direction: row;
+  margin: 20px;
+  padding: 10px;
+}
+
+.currency {
+  margin: 10px 10px 10px 10px;
+  padding: 30px;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--color-main);
+}
+
+.swap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+select {
+  font-size: 16px;
+  --webkit-appearance: none;
+  --moz-appearance: none;
+  appearance: none;
+  border: 0;
+  background-color: var(--color-main);
+}
+
+input {
+  border: 0;
+  text-align: right;
+}
+
+input:focus {
+  outline: 0;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 200px;
+  }
+}

@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  margin-top: 30px auto;
+  width: 350px;
+}
+#balance {
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.inc-exp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin: 5px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container div:nth-child(1) {
+  border-right: 2px solid gray;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0 30px;
+}
+
+h3 {
+  border-bottom: 1px solid orange;
+  margin: 40px 0 10px;
+  padding-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
