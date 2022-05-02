@@ -9,6 +9,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-image: url("images/mom_kid_book.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* overflow: hidden; */
 }
 .project-link {
   text-decoration: none;
