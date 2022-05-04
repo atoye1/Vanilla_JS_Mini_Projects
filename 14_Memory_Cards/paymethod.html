@@ -1,0 +1,22 @@
+<ul id="paymethodPos">
+    <li idcode="37433"><input type="radio" name="rdoPays" id="rdoPays37433" idgroup="37433" value="37433"
+            datedifference="32" onclick="fdc_PayMethodChange(this);"><img
+            src="http://tkfile.yes24.com/img/perfsale/npay.png" alt="네이버페이" height="19px"></li>
+    <li idcode="2"><input type="radio" name="rdoPays" id="rdoPays2" idgroup="2" value="2" datedifference="32"
+            onclick="fdc_PayMethodChange(this);">신용카드 <a class="dcursor" onclick="fdc_PopupInstallment();"
+            style="display:none;"><img src="http://tkfile.yes24.com/img/perfsale/btn_infor01.gif" alt="무이자할부안내"></a>
+    </li>
+    <li idcode="22"><input type="radio" name="rdoPays" id="rdoPays22" idgroup="22" value="22" datedifference="32"
+            onclick="fdc_PayMethodChange(this);">무통장 입금 <select id="selBank">
+            <option value="-1">입금은행 선택</option>
+            <option value="50">국민은행</option>
+            <option value="11631">기업은행</option>
+            <option value="57">농협중앙회</option>
+            <option value="11629">신한은행</option>
+            <option value="49">우리은행</option>
+            <option value="11634">우체국</option>
+            <option value="11630">하나은행</option>
+            <option value="11633">SC은행</option>
+        </select><a id="imgCashReceipt" class="dcursor" onclick="fdc_PopupCashReceiptInfo();" disabled="disabled"><img
+                src="http://tkfile.yes24.com/img/perfsale/btn_infor04.gif" alt="현금영수증발행안내"></a></li>
+</ul>
